@@ -68,18 +68,52 @@ nav span {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 .menu img{
   width: 300px;
   height: 200px;
-  padding: 0px 10px;
+  padding: 0;
 }
 
 .menu .image {
   width: 300px;
   text-align: center;
-  padding-top: 10px;
+  margin: 15px;
+}
+
+.image h4 {
+  margin-top: 10px;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  height: 570px;
+  width: 1200px;
+  justify-content: center;
+  position: relative;
+  background-image: url(../images/img-locations-background.jpg);
+  top: 70px;
+}
+
+.options{
+  display: inline-flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.options .spec {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin:  0 20px;
+}
+
+.locations h2 {
+  margin-bottom: 15px;
 }
