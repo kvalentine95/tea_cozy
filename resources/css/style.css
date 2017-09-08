@@ -51,7 +51,7 @@ nav span {
   align-items: center;
   justify-content: center;
   position: relative;
-  top: 70px;
+  padding-top: 70px;
 }
 
 .mission {
@@ -62,7 +62,7 @@ nav span {
 #tea {
   width: 1000px;
   position: relative;
-  top: 70px;
+  padding-top: 70px;
 }
 .menu {
   display: flex;
@@ -96,7 +96,7 @@ nav span {
   justify-content: center;
   position: relative;
   background-image: url(../images/img-locations-background.jpg);
-  top: 70px;
+  padding-top: 70px;
 }
 
 .options{
@@ -116,4 +116,16 @@ nav span {
 
 .locations h2 {
   margin-bottom: 15px;
+}
+
+.contact {
+  height: 200px;
+  top: 70px;
+  position: relative;
+}
+
+body footer {
+  margin-top: 70px;
+  align-self: flex-start;
+  margin-left: 20px;
 }
